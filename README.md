@@ -1,5 +1,4 @@
 # 8086 assembly language
-
 ## 常用指令
 
 * 在dosbox中输入debug进入debug模式
@@ -18,3 +17,6 @@
 * SP寄存器：存放栈的偏移地址
 * g：g 0012 执行指令到偏移地址0012h处
 * p：Debug自动重复执行loop中的指令直至(cx)=0
+* masm \src\5_1,\out\5_1; 将src中5_1.asm编译输出到out中为5_1.OBJ
+* link \src\5_1,\out\5_1; 将src中5_1.OBJ链接输出到out中为5_1.exe
+* debug 5_1.exe 将5_1.exe程序装载入debug进行逐步运行调试观察
