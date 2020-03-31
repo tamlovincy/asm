@@ -1,4 +1,4 @@
-<div align="center"> <font size="6" color="black"><strong></strong>8086 assembly language</font> </div>
+# 8086 assembly language
 
 ## 常用指令
 
